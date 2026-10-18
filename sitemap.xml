@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- ============================================= -->
+  <!-- ⚠️ مهم: آدرس زیر را با آدرس واقعی سایت خودت جایگزین کن -->
+  <!-- مثال گیت‌هاب پیجز:  https://USERNAME.github.io/REPO-NAME/ -->
+  <!-- مثال دامنه اختصاصی: https://taratejarat.ir/ -->
+  <!-- ============================================= -->
+
+  <!-- صفحه اصلی (مصاحبه رسول موسوی خادم) -->
+  <url>
+    <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/index.html</loc>
+    <lastmod>2025-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fa-IR" href="https://YOUR-USERNAME.github.io/YOUR-REPO/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://YOUR-USERNAME.github.io/YOUR-REPO/index.html"/>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Tejarat-Azad-com/ax/refs/heads/main/342c7de2-a8ec-4c1c-88dc-111a72800423.png</image:loc>
+      <image:title>رسول موسوی خادم، وکیل پایه یک دادگستری و متخصص حقوق تجارت بین‌الملل</image:title>
+      <image:caption>مصاحبه اختصاصی خبرگزاری تارا تجارت با رسول موسوی خادم</image:caption>
+    </image:image>
+  </url>
+
+  <!-- در آینده اگر صفحات جدید اضافه کردی، این الگو را کپی کن: -->
+  <!--
+  <url>
+    <loc>https://YOUR-USERNAME.github.io/YOUR-REPO/another-page.html</loc>
+    <lastmod>2025-01-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  -->
+
+</urlset>
