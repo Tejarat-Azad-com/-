@@ -30,7 +30,7 @@
 <meta property="og:image:alt" content="رسول موسوی خادم، وکیل پایه یک دادگستری">
 <meta property="og:site_name" content="تارا تجارت">
 <meta property="og:url" content="">
-<meta property="article:published_time" content="2026-10-17T10:30:00+03:30">
+<meta property="article:published_time" content="2025-01-15T10:30:00+03:30">
 <meta property="article:section" content="حقوق و تجارت بین‌الملل">
 <meta property="article:author" content="خبرگزاری تارا تجارت">
 
@@ -1028,7 +1028,7 @@ footer.site-footer{
       <div class="date-info">
         <span>
           <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
-          <span id="persian-date">شنبه، ۲۵ مهر ۱۴۰۵</span>
+          <span id="persian-date">سه‌شنبه، ۲۵ مهر ۱۴۰۵</span>
         </span>
         <span>
           <svg fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
@@ -1644,7 +1644,7 @@ footer.site-footer{
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© ۱۴۰۵ خبرگزاری تارا تجارت — تمامی حقوق محفوظ است.</span>
+      <span>© ۱۴۰۳ خبرگزاری تارا تجارت — تمامی حقوق محفوظ است.</span>
       <div class="fb-social">
         <a href="#" aria-label="تلگرام"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg></a>
         <a href="#" aria-label="توییتر"><svg fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
@@ -1666,8 +1666,8 @@ footer.site-footer{
   "alternativeHeadline": "کریدورهای زمینی، نجات‌بخش زنجیره تامین در سایه محاصره دریایی؛ نگاه حقوقی رسول موسوی خادم به کنوانسیون CMR و راهکارهای گمرکی",
   "description": "مصاحبه اختصاصی خبرگزاری تارا تجارت با رسول موسوی خادم، وکیل پایه یک دادگستری، رئیس دپارتمان حقوق قراردادهای بین‌الملل و دپارتمان حقوق امور گمرکی مجموعه فرادیار؛ درباره اهمیت کریدورهای زمینی پس از محاصره دریایی، کنوانسیون CMR و راهکارهای گمرک جمهوری اسلامی ایران برای تسهیل تجارت.",
   "image": "https://raw.githubusercontent.com/Tejarat-Azad-com/ax/refs/heads/main/342c7de2-a8ec-4c1c-88dc-111a72800423.png",
-  "datePublished": "2026-10-17T10:30:00+03:30",
-  "dateModified": "2026-10-17T10:30:00+03:30",
+  "datePublished": "2025-01-15T10:30:00+03:30",
+  "dateModified": "2025-01-15T10:30:00+03:30",
   "inLanguage": "fa-IR",
   "author": {
     "@type": "Organization",
@@ -1698,10 +1698,10 @@ footer.site-footer{
 (function(){
   'use strict';
 
-  /* تاریخ ثابت مهر ۱۴۰۵ — جلوگیری از بازنویسی توسط تاریخ سیستم */
   try{
+    var pd = new Intl.DateTimeFormat('fa-IR',{weekday:'long',year:'numeric',month:'long',day:'numeric'}).format(new Date());
     var el = document.getElementById('persian-date');
-    if(el) el.textContent = 'شنبه، ۲۵ مهر ۱۴۰۵';
+    if(el) el.textContent = pd;
   }catch(e){}
 
   var progressBar = document.getElementById('progressBar');
